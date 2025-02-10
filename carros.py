@@ -12,7 +12,7 @@ marcas= {}
 #ciclo para percorrer o array das marcas
 for carro in carros:
     """
-    #verificarse a marca ja existe no dicionario
+    #verificar se a marca ja existe no dicionario
     if carro in marcas:
         marcas[carro] = marcas[carro] + 1
     else:
