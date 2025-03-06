@@ -1,4 +1,4 @@
-#definir um dicionario { chave: valor} (valor é o que  chave recebe)
+#definir um dicionario {chave: valor} (valor é o que chave recebe)
 dicionario= {"nome":"joaquim"}
 print(dicionario["nome"])
 #alterar i valor de uma chave
