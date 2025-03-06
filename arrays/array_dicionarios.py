@@ -47,7 +47,7 @@ def listar(livros):
 
 def emprestimo(livros):
     """Função responsavel por fazer o emprestimo dos livros"""
-    id = int(input("Qual o id do livroa emprestar:"))
+    id = int(input("Qual o id do livro a emprestar:"))
     #validaro id
     if id < 1 or id > contagem_livros(livros): 
         print("O id introduzido não é valido")
